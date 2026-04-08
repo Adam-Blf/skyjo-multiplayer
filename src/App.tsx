@@ -5,7 +5,7 @@ import { ScoreBoard } from './components/ScoreBoard';
 import { Tutorial } from './components/Tutorial';
 import { useGameStore } from './store/gameStore';
 import { myPeer, sendAction } from './lib/multiplayer';
-import { Trophy, ChevronUp } from 'lucide-react';
+import { ChevronUp } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 function App() {
