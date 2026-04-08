@@ -30,3 +30,12 @@ body {
 .card-shadow {
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -4px rgba(0, 0, 0, 0.5);
 }
+
+@keyframes scan {
+  from { top: -100%; }
+  to { top: 100%; }
+}
+
+.animate-scan {
+  animation: scan 2s linear infinite;
+}
