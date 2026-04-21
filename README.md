@@ -1,6 +1,21 @@
-# React + TypeScript + Vite
+# Skyjo Multiplayer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?logo=pwa&logoColor=white)
+![Vercel](https://img.shields.io/badge/deploy-Vercel-000?logo=vercel&logoColor=white)
+
+Jeu Skyjo multijoueur en peer-to-peer (PeerJS), PWA installable, animations Framer Motion, store Zustand.
+
+**Live** · https://skyjo-multiplayer.vercel.app
+
+---
+
+## Vite template notes
+
+This project was bootstrapped from the React + TypeScript + Vite template with HMR and ESLint rules.
 
 Currently, two official plugins are available:
 
