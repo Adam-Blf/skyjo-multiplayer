@@ -18,6 +18,28 @@ Jeu Skyjo multijoueur en peer-to-peer (PeerJS), PWA installable, animations Fram
 
 ---
 
+## Architecture
+
+```mermaid
+flowchart TB
+    M["main.tsx · App.tsx<br/>React 19 · Vite · PWA"]
+    LOB["Lobby<br/>création · jonction partie"]
+    TABLE["GameTable<br/>PlayerGrid · Card · ScoreBoard · ParticleField"]
+    STORE["store/gameStore<br/>Zustand · état partie"]
+    ENGINE["lib/gameEngine · gameLogic<br/>règles Skyjo · tours · scores"]
+    MP["lib/multiplayer<br/>PeerJS · peer-to-peer"]
+    SND["lib/sound<br/>effets audio"]
+    PEER["Autres joueurs<br/>connexions WebRTC"]
+
+    M --> LOB --> STORE
+    M --> TABLE --> STORE
+    STORE --> ENGINE
+    STORE --> MP --> PEER
+    TABLE --> SND
+```
+
+---
+
 ## Vite template notes
 
 This project was bootstrapped from the React + TypeScript + Vite template with HMR and ESLint rules.
