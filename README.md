@@ -14,7 +14,7 @@
 
 Jeu Skyjo multijoueur en peer-to-peer (PeerJS), PWA installable, animations Framer Motion, store Zustand.
 
-**Live** · https://skyjo-multiplayer.vercel.app
+**Live** - https://skyjo-multiplayer.vercel.app
 
 ---
 
@@ -22,12 +22,12 @@ Jeu Skyjo multijoueur en peer-to-peer (PeerJS), PWA installable, animations Fram
 
 ```mermaid
 flowchart TB
-    M["main.tsx · App.tsx<br/>React 19 · Vite · PWA"]
-    LOB["Lobby<br/>création · jonction partie"]
-    TABLE["GameTable<br/>PlayerGrid · Card · ScoreBoard · ParticleField"]
-    STORE["store/gameStore<br/>Zustand · état partie"]
-    ENGINE["lib/gameEngine · gameLogic<br/>règles Skyjo · tours · scores"]
-    MP["lib/multiplayer<br/>PeerJS · peer-to-peer"]
+    M["main.tsx - App.tsx<br/>React 19 - Vite - PWA"]
+    LOB["Lobby<br/>création - jonction partie"]
+    TABLE["GameTable<br/>PlayerGrid - Card - ScoreBoard - ParticleField"]
+    STORE["store/gameStore<br/>Zustand - état partie"]
+    ENGINE["lib/gameEngine - gameLogic<br/>règles Skyjo - tours - scores"]
+    MP["lib/multiplayer<br/>PeerJS - peer-to-peer"]
     SND["lib/sound<br/>effets audio"]
     PEER["Autres joueurs<br/>connexions WebRTC"]
 
@@ -118,7 +118,7 @@ export default defineConfig([
 ---
 
 <p align="center">
-  <sub>Par <a href="https://adam.beloucif.com">Adam Beloucif</a> · Data Engineer & Fullstack Developer · <a href="https://github.com/Adam-Blf">GitHub</a></sub>
+  <sub>Par <a href="https://adam.beloucif.com">Adam Beloucif</a> - Data Engineer & Fullstack Developer - <a href="https://github.com/Adam-Blf">GitHub</a></sub>
 </p>
 
 
