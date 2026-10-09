@@ -2,6 +2,12 @@
 
 All notable changes to this project are documented here. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), versions follow [SemVer](https://semver.org/).
 
+## [0.2.0] - 2026-10-09
+
+### Changed
+
+- Icons now come from Reicon (`reicon-react`), replacing `lucide-react`.
+
 ## [0.1.0] - 2026-10-07
 
 First tagged release. Latest changes:
