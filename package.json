@@ -1,7 +1,7 @@
 {
   "name": "skyjo-multiplayer",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,11 +13,11 @@
     "@tailwindcss/vite": "^4.2.2",
     "clsx": "^2.1.1",
     "framer-motion": "^12.38.0",
-    "lucide-react": "^1.7.0",
     "ovh": "^2.0.3",
     "peerjs": "^1.5.5",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
+    "reicon-react": "^1.2.6",
     "tailwind-merge": "^3.5.0",
     "tailwindcss": "^4.2.2",
     "vite-plugin-pwa": "^1.2.0",

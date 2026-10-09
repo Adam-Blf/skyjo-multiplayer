@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useGameStore } from '../store/gameStore';
 import { initHost, initClient, sendAction, myPeer } from '../lib/multiplayer';
 import { motion } from 'framer-motion';
-import { Users, Copy, Check, Play, UserPlus } from 'lucide-react';
+import { Users, Copy, Check, Play, UserAdd } from "reicon-react";
 
 export const Lobby = () => {
   const { players, status } = useGameStore();
@@ -129,7 +129,7 @@ export const Lobby = () => {
                              onClick={handleJoin}
                              className="bg-emerald-500 hover:bg-emerald-400 text-white font-bold px-6 rounded-xl shadow-lg shadow-emerald-500/25 transition-all flex items-center justify-center"
                          >
-                             <UserPlus className="w-5 h-5" />
+                             <UserAdd className="w-5 h-5" />
                          </button>
                      </div>
                 </div>

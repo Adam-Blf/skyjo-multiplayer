@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { HelpCircle, ChevronRight, X } from 'lucide-react';
+import { HelpCircle, ChevronRight, X } from "reicon-react";
 
 const STEPS = [
   {

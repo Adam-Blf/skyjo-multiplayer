@@ -1,6 +1,6 @@
 import { useGameStore } from '../store/gameStore';
 import { sendAction, myPeer } from '../lib/multiplayer';
-import { Trophy, ArrowRight, RefreshCcw } from 'lucide-react';
+import { Trophy, ArrowRight, Refresh } from "reicon-react";
 import { motion } from 'framer-motion';
 
 export const ScoreBoard = () => {
@@ -81,7 +81,7 @@ export const ScoreBoard = () => {
                     >
                         {status === 'GAME_OVER' ? (
                             <>
-                                <RefreshCcw className="w-5 h-5 group-hover:rotate-180 transition-transform duration-500" />
+                                <Refresh className="w-5 h-5 group-hover:rotate-180 transition-transform duration-500" />
                                 Rejouer
                             </>
                         ) : (
